@@ -1,0 +1,143 @@
+body{
+  background-color: Black;
+  color: #ffffff;
+  margin: 0;
+  padding: none;
+  font-family: Roboto;
+}
+#container{
+}
+#mm{
+  display: none;
+  text-align: center;
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  font-family: hp;
+  font-size: 6vw;
+}
+
+#welcome{
+  display: none;
+  text-align: center;
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  font-size: 6vw;
+}
+#heading1{
+  font-size: 8vw;
+}
+#heading2{
+  font-size: 5vw;
+}
+#top{
+  width: 100%;
+  height: 30%;
+}
+#top_left{
+  width: 40%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+#top_right{
+  width: 50%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+}
+#day_date{
+  width: 100%;
+  height: 15%;
+  font-size: 3.8vw;
+  text-align: center;
+  margin-top: 4%;
+}
+#time{
+  width: 100%;
+  height: 26%;
+  font-size: 9.8vw;
+  text-align: center;
+  margin-top: 2%;
+}
+#calender{
+  overflow: hidden;
+  height: 55%;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#middle{
+  width: 100%;
+  height: 60%;
+}
+@font-face {
+    font-family: hp;
+    src: url(fonts/hp.TTF);
+}
+#bottom{
+  width: 90%;
+  height: 10%;
+  text-align: center;
+  font-size: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mid_box{
+  width: 80%;
+  height: 60%;
+  position: relative;
+  top: 20%;
+  left: 10%;
+  border: 1px solid black;
+}
+#news{
+}
+#wiki{
+  display: none;
+}
+#wiki_title{
+  font-size: 4vw;
+}
+#wiki_detail{
+  font-size: 2.5vw;
+  margin-top: 2%;
+}
+.news_list{
+  padding: 2%;
+}
+#wolfram{
+display: none;
+}
+#wolfram_question{
+  font-size: 3.2vw;
+  margin-top: 6%;
+  margin-left: 2%;
+
+}
+#wolfram_answer{
+  font-size: 3.2vw;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+
+#now_playing{
+  display: none;
+  position: relative;
+  top: 25%;
+  width: 70%;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2.4vw;
+  border-bottom: 1px solid #ffffff;
+
+}
+#magic_chime,#song_player{
+  display: none;
+
+}
